@@ -1,0 +1,3 @@
+Profe, algunos ejercicios de CSS están comentados en el HTML porque a veces era el mismo HTML pero con distinto CSS. Para ver el HTML de acuerdo al video solo lo des-comenta (lo cambia de comentario a no comentario). 
+
+Muchas Gracias!

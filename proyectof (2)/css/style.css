@@ -1,0 +1,62 @@
+.imagen_de_gatos{
+    width: 200px; 
+    border-width: 15px;
+    border-color: blue;
+    border-style: solid dashed dotted double;
+}
+
+.bordes_redondeados{
+  border-radius: 50%;
+
+}
+
+/* div{
+  background-color: blue;
+} */
+
+.contenedor_listas{
+  background-color: silver;
+}
+
+#titulo-app-gatos{
+  font-size: 30px;
+  color: green;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#imagen_de_gatos{
+border-radius: 50%;
+border-width: 5px;
+border-style: solid;
+border-color: brown;
+}
+
+#lista-gatos-aman {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+#lista-gatos-odian {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img[alt]{
+  border-radius: 50%;
+}
+
+[type="radio"] {
+  margin: 25px;
+}
+
+a[href="freecodecam.org"]{
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body{
+  color: chocolate;
+  
+}
