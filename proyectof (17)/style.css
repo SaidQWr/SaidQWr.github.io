@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    padding: 40px; /* margen interno */
+}
+
+.main{
+    width: 400px ; /* para determinar el ancho del objeto */
+    height: 400px; /* para determinar el alto del objeto */
+    background: rgb(90, 205, 169);
+    transform:translate(2px) ;/* Hace el objeto como de 2d, lo mueve de poscion */
+}
+
+.modal{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center; /* para alinear al centro */
+    justify-content: center;
+    color: #fff;
+    background: rgb(80, 139, 191);
+    font-weight: 300; /* Para poner el grosor de las letras */
+    /* fondo, color y grosor a letra 300 */
+}
+
+.titulo{
+    font-size: 2.5rem;
+    text-align: center;
+}
