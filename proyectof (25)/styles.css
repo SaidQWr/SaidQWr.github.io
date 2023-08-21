@@ -1,0 +1,182 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #b08e44;
+}
+
+/* Estilos para el encabezado y la navegación */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+
+/* Estilos para el héroe */
+#hero {
+  background-image: url('imagen-del-producto.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #4685d9; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos para características */
+#features {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#features ul {
+  list-style: none;
+  padding: 0;
+}
+
+#features li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para testimonios */
+#testimonials {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonial {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos para el ícono de WhatsApp */
+#contacto a img {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+section {
+  margin-left: 30px;
+}
+
+#testimonials-sidebar {
+  width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#testimonials-sidebar .testimonial {
+  margin-bottom: 20px;
+}
+
+#contacto {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#collage {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.large-image {
+  display: inline-block;
+  width: 60%;
+  margin: 0 10px;
+}
+
+.small-images {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+#collage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.size-buttons {
+  margin-top: 10px;
+}
+
+.size-button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.size-button:hover {
+  background-color: #ff6600;
+}
+
+.size-button.selected {
+  background-color: #83a8e2;
+}
+
+.product-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cantidad {
+  width: 50px; /* Ajusta el ancho del cuadro de cantidad */
+  padding: 5px; /* Ajusta el espaciado interno del cuadro de cantidad */
+  font-size: 14px; /* Ajusta el tamaño de la fuente del cuadro de cantidad */
+}

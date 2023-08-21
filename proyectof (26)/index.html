@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Said Quioto - Sitio Personal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="modo-oscuro">
+  <header>
+    <nav>
+      <div class="modo-btn-container">
+        <button id="modoBtn"><i class="fas fa-adjust"></i> Cambiar Modo</button>
+      </div>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#intereses">Intereses</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
+    </nav>
+    <h1>Said Quioto</h1>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2 class="welcome">¡Hola! Bienvenido a mi sitio web personal</h2>
+      <img src="img/said_quioto.jpg" alt="Foto de perfil" width="25%">
+      <h3>Mi nombre es <b>Said Quioto</b> y estoy en proceso de ser un Tecnico Profesional en Informatica. <br>
+        En mi tiempo libre, disfruto jugar football o salir con mis amigos. Creo firmemente en los valores como clave de toda profesión, <br>y trato de aplicarlos en todo lo que hago.
+        Si estás interesado en trabajar conmigo o en conocer más sobre mi trabajo, no dudes <br> en dejar tus datos de contacto. Estoy deseando conversar contigo y ver cómo puedo ayudarte a suplir tus necesidades.</h3>
+      
+    </section>
+
+    <section id="intereses">
+      <h2>Intereses</h2>
+      <ul>
+        <li>Caminar con Cristo</li>
+        <li>Conocer nuevos lugares</li>
+        <li>Jugar al Futbol</li>
+        <li>Viajar</li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Liderazgo</li>
+        <li>Trabajo en equipo</li>
+        <li>Pensamiento crítico</li>
+        <li>Resolución de problemas</li>
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos Anteriores</h2>
+      <table>
+        <tr>
+          <th>Proyecto</th>
+          <th>Descripción</th>
+        </tr>
+        <tr>
+          <td class="align">Venta de Servicios</td>
+          <td>
+            <div class="img-container"><img src="img/proyecto1.png" alt="Imagen Proyecto 1"></div>
+            <div class="centrar">
+              <p>Este es uno de los ejemplos de para una pagina web <br> de servicios desarrollados para la venta, dando opcion de diferentes tipos <br> de paquetes, eligiendo el que mejor te guste .</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="align">Registro de Inicio de Sesion Basico</td>
+          <td>
+            <div class="img-container"><img src="img/proyecto2.png" alt="Imagen Proyecto 2"></div>
+            <div class="centrar">
+              <p>Este es de una pagina web en donde se <br> enfoca en el perfil del manejo de nuevos usuarios, llegando <br> a ellos a traves de sus datos asignados por si mismos.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="centrar">Pagina Web / Personal</td>
+          <td>
+            <div class="img-container"><img src="img/proyecto3.png" alt="Imagen Proyecto 3" ></div>
+            <div class="centrar">
+              <p>Pagina Web personal muy similar a este <br> en el cual podemos ver un diseño muy distinto en comparacion a <br> este, siendo objeto libre de modificaciones, mantenimiento y <br> ampliacion cuando sea requerido.</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <form id="contactForm">
+      <div>
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre" required>
+      </div>
+      <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu numero de telefono" required>
+      </div>
+      <div>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Email" required>
+      </div>
+
+      <button class="button2" type="submit" id="enviarBtn">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Said Quioto</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

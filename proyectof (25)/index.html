@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página de Destino del Producto</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#features">Características</a></li>
+        <li><a href="#collage">Galería</a></li>
+        <li><a href="#testimonials">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="collage">
+      <div class="large-image">
+        <img src="img/rm1.png" alt="Imagen 1">
+      </div>
+      <div class="small-images">
+        <!-- <img src="img/rm2.png" alt="Imagen 2">
+        <img src="img/rm3.png" alt="Imagen 3">
+        <img src="img/rm4.png" alt="Imagen 4"> -->
+      </div>
+      <div class="large-image">
+        <img src="img/rm5.png" alt="Imagen 5">
+      </div>
+      <div class="product-info">
+        <p><b>Precio:</b> 200 $</p>
+        <p><b>Tallas:</b></p>
+        <div class="size-buttons">
+          <button class="size-button" onclick="selectSize('S')">S</button>
+          <button class="size-button" onclick="selectSize('M')">M</button>
+          <button class="size-button" onclick="selectSize('L')">L</button>
+          <button class="size-button" onclick="selectSize('XL')">XL</button>
+        </div>
+        <p><b>Cantidad:</b></p>
+        <input type="number" id="cantidad" value="1" min="1">
+      </div>
+    </section>
+
+    <section id="hero">
+      <h1>¡Descubre nuestro increíble producto!</h1>
+      <p>Experimenta una nueva forma de mejorar tu vida.</p>
+      <a href="https://www.paypal.me/saidqr" class="cta-button">Comprar Ahora</a>
+    </section>
+
+    <section id="features">
+      <h2>Características del Producto</h2>
+      <ul>
+        <li>Comoda para salir con los amigos.</li>
+        <li>Dry Fit, seca rapido y no deja mal olor.</li>
+        <li>Combina con todo tipo de ropa y siempre lucirás Genial!</li>
+      </ul>
+    </section>
+
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Ponte en contacto con nosotros para más información:</p>
+      <ul>
+        <li><b>Teléfono:</b> <a href="http://wa.me/50495831672"><img src="img/whatsapp-icon.png" alt="WhatsApp Icon"> +504 95831672</a></li>
+        <li><b>Correo Electrónico:</b> <a href="mailto:infoquioto@gmail.com">infoquioto@gmail.com</a></li>
+      </ul>
+      <h3>Reserva tu Compra</h3>
+      <p>Selecciona la fecha de entrega deseada:</p>
+      <input type="date" id="fecha-reserva">
+    </section>
+  </main>
+
+  <aside id="testimonials-sidebar">
+    <div class="testimonial">
+      <p>"¡Esta camisa es asombrosa, se la regalé a mi novia y dijo que ha sido el mejor regalo que ha recibido en su vida!"</p>
+      <p>- Cliente Satisfecho</p>
+    </div>
+    <div class="testimonial">
+      <p>"Nunca pensé que encontraría algo tan hermoso 😍🥰 ¡Lo recomiendo a todos!"</p>
+      <p>- Otro Cliente Feliz</p>
+    </div>
+  </aside>
+
+  <footer>
+    <p>&copy; 2023 Said Q. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: black;
+  transition: background-color 0.5s; /* Transición suave para cambios de fondo */
+}
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 1rem;
+  position: relative; /* Agregamos posición relativa para el contenedor del botón */
+}
+
+h3, .welcome{
+  margin: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #007BFF;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem; /* Agregamos un margen inferior a la tabla */
+  position: relative;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  text-align: left; /* Alineamos el texto a la izquierda dentro de las celdas */
+}
+
+.img-container {
+  text-align: right;
+}
+
+.img-container img {
+  width: 55%;
+  height: 55%;
+  display: block; /* Cambiamos de inline-block a block */
+}
+
+td p {
+  margin: 0; /* Eliminamos los márgenes para que el texto comience desde arriba */
+  text-align: right; /* Alineamos el texto a la izquierda */
+  align-content: stretch;
+}
+
+/* Estilos para el botón de cambio de modos */
+.modo-btn-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modo-btn-container button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.modo-btn-container button i {
+  margin-right: 5px;
+}
+
+/* Modo Oscuro */
+body.modo-oscuro {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.button2 {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-align: center; /* Centrar el botón */
+  display: block; /* Asegurarse de que el botón ocupe toda la anchura disponible */
+  margin: 0 auto; /* Centrar horizontalmente el botón */
+}
+
+.button2:hover{
+  background: #ffffff;
+  color: #000;
+}
+
+#contacto {
+  padding: 2rem;
+  background-color: #fff; /* Color de fondo del rectángulo */
+  border-radius: 10px; /* Radio de los bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del rectángulo */
+}
