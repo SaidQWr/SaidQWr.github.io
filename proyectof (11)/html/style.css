@@ -102,3 +102,9 @@ footer .redes-sociales a{
 footer .redes-sociales a:hover{
     text-decoration: none;
 }
+
+.fas{
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}

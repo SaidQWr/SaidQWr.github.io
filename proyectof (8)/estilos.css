@@ -66,3 +66,9 @@ article:hover img:last-child{
   opacity: 1;
   transform: translateY(10%);
 }
+
+.fas{
+  margin: 10px;
+  padding: 10px;
+  color: red;
+}

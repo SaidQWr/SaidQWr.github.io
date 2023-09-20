@@ -60,3 +60,8 @@ button:hover {
   font-weight: bold;
   text-align: center;
 }
+
+.fas{
+  padding: 10px;
+  margin: 10px;
+}
