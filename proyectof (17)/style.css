@@ -10,6 +10,12 @@ body{
     padding: 40px; /* margen interno */
 }
 
+.fas{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
 .main{
     width: 400px ; /* para determinar el ancho del objeto */
     height: 400px; /* para determinar el alto del objeto */

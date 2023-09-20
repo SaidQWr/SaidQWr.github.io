@@ -5,40 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyecto Final</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#contactForm">Contacto</a></li>
+      <li><a href="#intereses-habilidades">Intereses-Habilidades</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+    </ul>
+  </nav>
 
-  <ul>
-    <li><a href="proyectof/validar_formularios.html">Validar Formularios</a></li>
-    <li><a href="proyectof (2)/html/index.html">App de Gatos</a></li>
-    <li><a href="proyectof (3)/html/botones_radio.html">Botones de Radio</a></li>
-    <li><a href="proyectof (4)/index.html">Calculadora de propinas</a></li>
-    <li><a href="proyectof (5)/8estructuradecont.html">Estructura de Contenido</a></li>
-    <li><a href="proyectof (6)/calculadora.html">Calculadora Basica</a></li>
-    <li><a href="proyectof (7)/4listas.html">Listas</a></li>
-    <li><a href="proyectof (8)/index.html">Super Mario Hover</a></li>
-    <li><a href="proyectof (9)/cproductos.html">C Productos</a></li>
-    <li><a href="proyectof (10)/nieve.html">Nieve</a></li>
-    <li><a href="proyectof (11)/html/index.html">Layout Con FlexBox</a></li>
-    <li><a href="proyectof (12)/holamundo.html">Primera Pagina Web</a></li>
-    <li><a href="proyectof (13)/enlaces.html">Enlaces</a></li>
-    <li><a href="proyectof (14)/cproductos.html">Ediciones Fares Libro</a></li>
-    <li><a href="proyectof (15)/enlaces.html">Enlaces 2</a></li>
-    <li><a href="proyectof (16)/naruto.html">Naruto</a></li>
-    <li><a href="proyectof (17)/index.html">Fixed & Transform</a></li>
-    <li><a href="proyectof (18)/practica6.html">CSS Grid</a></li>
-    <li><a href="proyectof (19)/index.html">Tabla de Precios</a></li>
-    <li><a href="proyectof (20)/index.html">Pagina Web Said Q</a></li>
-    <li><a href="proyectof (21)/index.html">Boleta de Juegos</a></li>
-    <li><a href="proyectof (22)/libros.html">Ediciones Fares-Libro</a></li>
-    <li><a href="proyectof (23)/index.html">Reloj Digital</a></li>
-    <li><a href="proyectof (24)/index.html">Formulario</a></li>
-    <li><a href="proyectof (25)/index.html">Venta de Producto</a></li>
-    <li><a href="proyectof (26)/index.html">Pagina Web Personal</a></li>
-    <li><a href="proyectof (27)/html/index.html">Slider de Pelicula</a></li>
-    <li><a href="proyectof (28)/index.html">Tabla para Promedio de Notas</a></li>
-    <li><a href="proyectof (29)/index.html">Tic Tac Toe</a></li>
-    <li><a href="proyectof (30)/transiciones.html">Transiciones</a></li>
-  </ul>
+  <main>
+    <section id="inicio">
+      <div class="container">
+        <img class="imagen-said" src="img/said_quioto.png" alt="Imagen de Said"> 
+        <h1>Tu lo Imaginas <br>Yo lo Programo🤖!</h1>
+        <h2>Said Quioto</h2>
+        <p>Mi nombre es Said Quioto y estoy en proceso de ser Técnico Profesional en Informática.
+          En mi tiempo libre, disfruto jugar fútbol o salir con mis amigos. Creo firmemente en los valores como clave de toda profesión,
+          y trato de aplicarlos en todo lo que hago. Si estás interesado en trabajar conmigo o en conocer más sobre mi trabajo, no dudes
+          en dejar tus datos de contacto. Estoy deseando conversar contigo y ver cómo puedo ayudarte a suplir tus necesidades.</p>
+      </div>
+    </section>
+
+    <section id="intereses-habilidades">
+      <div class="container">
+        <div class="column">
+          <h2>Intereses</h2>
+          <ul>
+            <li>Caminar con Cristo</li>
+            <li>Conocer nuevos lugares</li>
+            <li>Jugar al Fútbol</li>
+            <li>Viajar</li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Liderazgo</li>
+            <li>Trabajo en equipo</li>
+            <li>Pensamiento crítico</li>
+            <li>Resolución de problemas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+          <div>
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required>
+          </div>
+          <div>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Email" required>
+          </div>
+          <button class="button2" type="submit" id="enviarBtn">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="imagen-trabajo">
+    <img src="img/ejemplo.jpg" alt="Ambiente Laboral">
+  </div>
+
+  <footer>
+    <div class="container">
+      <p><b>&copy; 2023 Said Quioto</b></p>
+      <p> <i class="fas fa-phone"></i> <a href="http://wa.me/50494519226" target="_blank">+504 94519226</a> </p>
+      <p> <i class="fas fa-envelope"></i> <a href="mailto:infoquioto@gmail.com">infoquioto@gmail.com</a> </p>
+      <p> <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/s_quioto/" target="_blank"> s_quioto </a> </p>
+    </div>
+  </footer>
 </body>
 </html>

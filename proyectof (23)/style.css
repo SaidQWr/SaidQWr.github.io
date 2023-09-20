@@ -8,6 +8,12 @@ body {
   box-sizing: border-box;
 }
 
+.fas{
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
 #clock {
   font-size: 48px;
   font-weight: bold;

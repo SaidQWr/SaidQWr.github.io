@@ -11,6 +11,11 @@ body{
     font-family: 'open sans';
 }
 
+.fas{
+    padding: 10px;
+    /* color: #fff; */
+}
+
 .contenedor{
     width: 90%;
     max-width: 900px;

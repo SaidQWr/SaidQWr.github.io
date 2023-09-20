@@ -9,6 +9,11 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.fas{
+  padding: 10px;
+  color: #fff;
+}
+
 .parrafo{
   font-size: 25px;
   /* background: white; */

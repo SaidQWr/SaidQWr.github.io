@@ -13,6 +13,11 @@ body {
   transition: background-color 0.5s; /* Transición suave para cambios de fondo */
 }
 
+.fas{
+  color: #fff;
+  padding: 5px;
+}
+
 header {
   background-color: #007BFF;
   color: #fff;

@@ -33,3 +33,23 @@
   background-color: #000;
   /* flex-grow: 1;?\ */
 }
+
+.boton-regresar {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  font-size: 20px;
+  transition: color 0.2s, font-weight 0.2s, font-size 0.2s;
+}
+
+.boton-regresar:hover {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fas{
+  margin: 10px;
+  padding: 10px;
+  color: tomato;
+}

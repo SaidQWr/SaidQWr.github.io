@@ -8,6 +8,11 @@ body{
     background: #fff;
     font-family: 'lato', sans-serif;
     font-size: 16px;
+}
+
+.fas{
+    margin: 10px;
+    padding: 10px;
 
 }
 

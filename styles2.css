@@ -1,0 +1,73 @@
+*{
+  background: rgb(255, 255, 255);
+}
+
+body{
+  color: #333;
+}
+
+a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: normal; 
+  font-size: 20px;
+  transition: color 1.2s, font-weight 1.2s, font-size 1.2s; 
+}
+
+a:hover {
+  color: #007bff; 
+  font-weight: bold; 
+  font-size: 24px; 
+}
+
+.columna li {
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+  transition: background-color 1.2s ease;
+}
+
+.columna li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333;
+  transition: color 1.2s ease;
+}
+
+.columna {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+}
+
+.columna1 {
+  float: left;
+}
+
+.columna2 {
+  float: right;
+}
+
+.columna li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.columna li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  transition: color 1.2s ease, border 0.5s ease; /* Agregamos transición al color del texto y al borde */
+}
+
+.columna li:hover::before {
+  color: #007bff;
+}
+
+.columna li a:hover {
+  color: #007bff;
+  border: 1px solid #007bff;
+}

@@ -6,6 +6,12 @@
     -moz-box-sizing: border-box;
 }
 
+.fas{
+    margin: 10px;
+    padding: 10px;
+    /* color: #fff; */
+}
+
 /* body{
     margin-top: 20px;
 } */
